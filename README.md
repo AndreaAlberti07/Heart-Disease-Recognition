@@ -53,7 +53,7 @@ We extracted relevant features from the audio data, such as Mel Frequency Cepstr
 
 ### Model Development
 
-We developed two advanced ensemble models: MLP_Ensemble5, focusing on minimizing false negatives, and MLP_Ensemble2, emphasizing overall performance and including explainability measures to make the models' predictions understandable to healthcare professionals.
+We developed two advanced ensemble models: MLP_Ensemble5, focusing on minimizing false normals in a 3 classes scenario (normal, abnormal, artifact, and MLP_Ensemble2, emphasizing overall performance in the 5 classes scenario and including explainability measures to make the models' predictions understandable to healthcare professionals.
 
 ### Evaluation
 
@@ -63,7 +63,8 @@ The models were evaluated using metrics such as accuracy, precision, and recall.
 
 The models developed in this study demonstrated promising results in classifying heart sound recordings. 
 MLP_Ensemble5 showed significant accuracy in identifying pathological heart sounds, achieving TPRs of 43.4%, 74.3%, 86.6%, and 95.8% at the 1%, 5%, 10%, and 20% FPR levels, respectively.
-MLP_Ensemble2 provided better overall performance with integrated explainability features. These models can potentially assist in early diagnosis and improve patient outcomes.
+MLP_Ensemble2 provided better overall performance, detecting also the type of disease and integrating explainability features. The model showed a macro F1 score of 81.58 and an MCC of 81.53.
+These models can potentially assist in early diagnosis and improve patient outcomes.
 
 ## License
 
