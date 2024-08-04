@@ -54,8 +54,8 @@ We extracted relevant features from the audio data, such as Mel Frequency Cepstr
 ### Model Development
 
 We developed two advanced ensemble models: MLP_Ensemble5, focusing on minimizing false negatives, and MLP_Ensemble2, emphasizing overall performance and including explainability measures to make the models' predictions understandable to healthcare professionals.
-[MLP_Emsemble5](paper/images/MLP_Ensemble5.png)
-[MLP_Ensemble2](paper/images/MLP_Ensemble2.png)
+![MLP_Emsemble5](paper/images/MLP_Ensemble5.png)
+![MLP_Ensemble2](paper/images/MLP_Ensemble2.png)
 
 ### Evaluation
 
