@@ -61,7 +61,9 @@ The models were evaluated using metrics such as accuracy, precision, and recall.
 
 ## Results
 
-The models developed in this study demonstrated promising results in classifying heart sound recordings. MLP_Ensemble5 showed significant accuracy in identifying pathological heart sounds, while MLP_Ensemble2 provided better overall performance with integrated explainability features. These models can potentially assist in early diagnosis and improve patient outcomes.
+The models developed in this study demonstrated promising results in classifying heart sound recordings. 
+MLP_Ensemble5 showed significant accuracy in identifying pathological heart sounds, achieving TPRs of 43.4%, 74.3%, 86.6%, and 95.8% at the 1%, 5%, 10%, and 20% FPR levels, respectively.
+MLP_Ensemble2 provided better overall performance with integrated explainability features. These models can potentially assist in early diagnosis and improve patient outcomes.
 
 ## License
 
